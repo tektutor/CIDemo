@@ -7,6 +7,15 @@
   <packaging>jar</packaging>
   <version>1.2.3</version>
   
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+    </repository>
+  </distributionManagement>
+ 
+  
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
